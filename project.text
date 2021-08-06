@@ -29,3 +29,5 @@
     |  ├─ App.js             <-- 项目主模块
     |  └─ index.js           <-- 项目入口文件
     └─ yarn.lock
+注意：npm eject 有时有问题 可以替换为 yarn eject
+可参考：https://juejin.cn/post/6844904055840440334#heading-14
