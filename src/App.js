@@ -4,19 +4,14 @@
  * @Author: tjl
  * @Date: 2021-08-06 16:35:03
  * @LastEditors: tjl
- * @LastEditTime: 2021-08-06 16:45:54
+ * @LastEditTime: 2021-08-09 19:06:34
  */
-import React, { Fragment } from 'react'
-function App() {
-  return (
-      <Fragment>
-          <div className="App">
-              <h1>This is React App.</h1>
-          </div>
-          <div className="App-other">
-              <h1>This is React App-ohter.</h1>
-          </div>
-        </Fragment>
-  )
-}
-export default App
+import { Button } from 'antd';
+import 'antd/dist/antd.css'
+const App: FC = () => (
+  <div className="App">
+     <Button type="primary">我是新用户</Button>
+  </div>
+);
+
+export default App;

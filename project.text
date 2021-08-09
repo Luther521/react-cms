@@ -31,3 +31,7 @@
     └─ yarn.lock
 注意：npm eject 有时有问题 可以替换为 yarn eject
 可参考：https://juejin.cn/post/6844904055840440334#heading-14
+
+2021/8/6 1、less引用不进去
+原因：版本过高
+解决方案： 1.npm uninstall less-loader 2.npm install less-loader@6.0.0

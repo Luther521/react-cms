@@ -239,11 +239,11 @@ body{
         .on{ background: #010104 ;}
       }
     }
-    .userCenter{display: inline-block; background:url(../images/user.jpg) no-repeat 0 center; width: 28px;height: @g-header-height - 4;
+    .userCenter{display: inline-block;width: 28px;height: @g-header-height - 4;
       // .anticon{display: none;}
     }
     .brand-title{ display: inline-block; line-height: @g-header-height; float: left;
-      .logo{ display: inline-block; color: #fff; width: 40px; height: 41px; background:url(../images/logo.png) no-repeat 0 0; background-size: 100%; vertical-align: middle; margin-right: @space-big; 
+      .logo{ display: inline-block; color: #fff; width: 40px; height: 41px;  background-size: 100%; vertical-align: middle; margin-right: @space-big; 
       }
       .brand-text{ display: block; font-size: 18px; font-family: 'PingFangSC-Regular'; letter-spacing: 4px; text-align: left; color: #fff;transition-property: all; transition-duration: 0.6s;
         // &:hover{ color: @text-color-secondary;}
@@ -251,7 +251,7 @@ body{
     }
     ul{ white-space: nowrap; display: inline-block; vertical-align: middle; line-height: @g-header-height; 
       li{ display: inline-block; position: relative;
-      &:first-of-type{ background: url(../images/user.png) no-repeat 0 center; padding-left: @space-normal;
+      &:first-of-type{ padding-left: @space-normal;
         &::after{content:'';width: 2px;height: 14px;top:26px;background-color:#fff;display: block;position: absolute; right: 0;}
       }
         a{color: #fff; padding:0 @space-big; display: inline-block;transition-property: all; transition-duration: 0.6s; font-size: @font-size-lg;
@@ -526,17 +526,17 @@ body button + button,
 .ant-modal-footer button + button{margin-left: @space-base;}
 
 // 自定义icon
-.qqbicon{ display: inline-block; width: 18px; height: 18px; background-color:transparent; background-image: url(../images/icon/menu/default.png); background-repeat: no-repeat; background-position: center center; vertical-align: middle; margin-right: 10px;}
-.qqbicon-navcontrol{ background-image: url(../images/navcontrol.png); }
+// .qqbicon{ display: inline-block; width: 18px; height: 18px; background-color:transparent; background-image: url(../images/icon/menu/default.png); background-repeat: no-repeat; background-position: center center; vertical-align: middle; margin-right: 10px;}
+// .qqbicon-navcontrol{ background-image: url(../images/navcontrol.png); }
 .ant-menu .@{qqbicon-prefix}{ margin:0 15px 5px 3px; }
-.@{qqbicon-prefix}-userManage{ background-image: url(../images/icon/menu/userManage.png); } // 用户管理
-.@{qqbicon-prefix}-roleManage{ background-image: url(../images/icon/menu/roleManage.png); } // 角色管理
-.@{qqbicon-prefix}-moduleManage{ background-image: url(../images/icon/menu/moduleManage.png); } // 模块管理
-.@{qqbicon-prefix}-pgmb{ background-image: url(../images/icon/menu/icon_pgmb.png); } // 评估面板
-.@{qqbicon-prefix}-pgmx{ background-image: url(../images/icon/menu/icon_pgmx.png); } // 评估模型
-.@{qqbicon-prefix}-xtxg{ background-image: url(../images/icon/menu/icon_xtxg.png); } // 系统相关
-.@{qqbicon-prefix}-duty{ background-image: url(../images/icon/menu/icon_duty.png); } // 编辑器设置
-.@{qqbicon-prefix}-statistics{ background-image: url(../images/icon/menu/icon_statistics.png); } // 表格统计
+// .@{qqbicon-prefix}-userManage{ background-image: url(../images/icon/menu/userManage.png); } // 用户管理
+// .@{qqbicon-prefix}-roleManage{ background-image: url(../images/icon/menu/roleManage.png); } // 角色管理
+// .@{qqbicon-prefix}-moduleManage{ background-image: url(../images/icon/menu/moduleManage.png); } // 模块管理
+// .@{qqbicon-prefix}-pgmb{ background-image: url(../images/icon/menu/icon_pgmb.png); } // 评估面板
+// .@{qqbicon-prefix}-pgmx{ background-image: url(../images/icon/menu/icon_pgmx.png); } // 评估模型
+// .@{qqbicon-prefix}-xtxg{ background-image: url(../images/icon/menu/icon_xtxg.png); } // 系统相关
+// .@{qqbicon-prefix}-duty{ background-image: url(../images/icon/menu/icon_duty.png); } // 编辑器设置
+// .@{qqbicon-prefix}-statistics{ background-image: url(../images/icon/menu/icon_statistics.png); } // 表格统计
 
 //tab切换样式
 .tab{ /*margin-top:@space-base;*/
@@ -579,7 +579,6 @@ body button + button,
 //用户信息样式
 .user{margin-top: @space-big;
   .user-img{width:104px;height:104px;overflow: hidden;border-radius: 100px;border: 1px solid #494e61; margin: 0 auto;
-  background: url(/images/photo_default.jpg) center no-repeat;background-size: cover;
     img{max-width: 100%;max-height:100%; }
    }
    .user-info{margin-top: 30px;
